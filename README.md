@@ -1,5 +1,7 @@
 #California Housing Data Analysis
 
+⚠️ IMPORTANT: Viewing Instructions
+This notebook contains interactive visualizations (PIE, LINE, BAR charts using Plotly, Bokeh, and Altair) that WILL NOT DISPLAY in GitHub's static preview.
 Project Overview:
 
 -This Jupyter Notebook performs exploratory data analysis and visualization on the California Housing dataset. The project demonstrates data loading, preprocessing, exploratory analysis, and visualization techniques using various Python libraries.
@@ -71,6 +73,17 @@ Data Quality Checks:
 -Feature Engineering: Creates income quartile categories (income_q) based on median_income
 
 5. Data Visualization:
+
+Chart Types Implemented:
+📊 Bar Charts - Distribution analysis
+
+📈 Line Charts - Trend analysis
+
+🥧 Pie Charts - Composition analysis
+
+🔵 Scatter Plots - Correlation analysis
+
+🗺️ Geographic Plots - Spatial analysis
    
 Creates a scatter plot using Seaborn showing the relationship between:
 
@@ -135,3 +148,22 @@ Usage Notes :
 -Visualization libraries are imported but only Seaborn is used in the current analysis
 
 -Additional visualizations using Plotly, Bokeh, and Altair can be implemented as needed
+
+Why Charts Don't Display on GitHub:
+
+Technical Reason:
+
+-GitHub renders notebooks as static HTML
+
+-Plotly, Bokeh, and Altair charts require JavaScript execution
+
+-GitHub disables JavaScript for security reasons
+
+Charts Affected:
+✅ Seaborn/Matplotlib charts: Display properly
+
+❌ Plotly interactive charts: Will not display
+
+❌ Bokeh web charts: Will not display
+
+❌ Altair interactive charts: Will not display
